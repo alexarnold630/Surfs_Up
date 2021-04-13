@@ -10,7 +10,7 @@ class SQLHelper():
     
     def get_precipitation(self):
         query = ""
-        with open("queries/prcp_last_12_months.sql", "r") as f:
+        with open("app/queries/prcp_last_12_months.sql", "r") as f:
             query = f.read()
 
         conn = self.engine.connect()
@@ -34,7 +34,7 @@ class SQLHelper():
     
     def get_most_active_over_last_year(self):
         query = ""
-        with open("queries/most_active_last_year.sql", "r") as f:
+        with open("app/queries/prcp_last_12_months.sql", "r") as f:
             query = f.read()
 
         conn = self.engine.connect()
