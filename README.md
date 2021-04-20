@@ -74,3 +74,6 @@ Now that you have completed your initial analysis, design a Flask API based on t
 ### Copyright
 
 Alex Arnold © 2020. All Rights Reserved.
+
+### Contact
+Alex Arnold: alexnarnold630@gmail.com <br>
